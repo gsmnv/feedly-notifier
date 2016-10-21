@@ -1,0 +1,21 @@
+[package]
+name = "feedly-notifier"
+version = "0.1.1"
+authors = ["George Semenov"]
+description = "Feedly updates notifier sitting in your status bar"
+license = "MIT"
+repository = "https://github.com/gsmnv/feedly-notifier"
+
+[dependencies]
+hyper = "0.9.10"
+serde = "0.8.12"
+serde_macros = "0.8.9"
+serde_json = "0.8.2"
+regex = "0.1.77"
+gdk-pixbuf = "0.1.0"
+gdk-pixbuf-sys = "0.3.1"
+lazy_static = "0.2.1"
+
+[dependencies.gtk]
+version = "0.1.0"
+features = ["v3_10"]
